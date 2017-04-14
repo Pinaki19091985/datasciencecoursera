@@ -51,3 +51,20 @@ How run_analysis.R implements the above steps:
 6. Merge data set.
 7. Appropriately labels the data set with descriptive variable names.
 8. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+Variables used in script:
+
+filespath - Location where the zip file should exist or needs to be downloaded.
+activity_labels - Here activity_labels.txt is loaded.
+features - Here features.txt is loaded.
+extract_features - Here only the measurements on the mean and standard deviation is loaded.
+X_test  - Here X_test.txt is loaded.
+y_test  - Here y_test.txt is loaded.
+subject_test  - Here subject_test.txt is loaded.
+test_data - column binding done where with proper activity labels.
+X_train  - Here X_train.txt is loaded.
+y_train  - Here y_train.txt is loaded.
+subject_train  - Here subject_train.txt is loaded.
+test_data - column binding done where with proper activity labels.
+tidyData - final dataset with the average of each variable for each activity and each subject.
